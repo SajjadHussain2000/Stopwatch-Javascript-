@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;   
+}
+
+html{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+section{
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.stopwatch{
+    font-size: 15vh;
+    font-family: monospace;
+}
+
+.controls{
+    margin-top: 20px;
+    padding: 20px;
+    display: flex;
+    width: 100%;
+    justify-content:center;
+    background-color: #9CC3D5FF;
+    width: 500px;
+    border-radius: 10px;
+}
+
+.wrapper{
+    width: 500px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 4px 4px 15px black;
+}
+
+.btn{
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+    margin-right: 30px;
+}
+
+.text{
+    font-size: 50px;
+    padding-bottom: 50px;
+}
+
+hr{
+    width: 100%;
+    border: 1px solid gray;
+}
+
+.stratbtn{
+    background-color: green;
+    font-size: 25px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.stopbtn{
+    background-color: coral;
+    font-size: 25px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.resetbtn{
+    background-color: gray;
+    font-size: 25px;
+    padding: 15px;
+    border-radius: 10px;
+}
